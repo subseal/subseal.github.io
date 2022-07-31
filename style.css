@@ -1,19 +1,24 @@
 body {
     overflow: auto;
-    background: rgb(18, 3, 3);
-    background: linear-gradient(140deg, #a1a1a1 19%, #2f2f2f 100%);
+    background-image: url("files/wooferscape.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background: rgb(18, 3, 3);
+    background: linear-gradient(140deg, #63c7ff 19%, #002a48 100%);*/
     color: #ffffff;
-    font-family: 'Courier New', monospace;
+    font-family: 'Open Sans', sans-serif;
     font-size: 15px;
-    letter-spacing: 2px;
-    height: 100vh;
+    /* letter-spacing: 2px; */
+    height: 100%;
 }
 
 .profile-picture {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top:5%;
+    padding-top:35px;
+    padding-left:35px;
     height: 200px;
     max-width: 100%;
 }
@@ -30,7 +35,7 @@ body {
 
 }
 
-.link-container{
+.link-container {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -40,4 +45,35 @@ body {
     border: 2px solid white;
     width: 300px;
     border-radius: 40px;
+    background-color: rgba(42, 169, 219, 0.7);
 }
+
+a {
+    color: #ffffff;
+    transition: color 1s;
+    display: inline-block;
+    margin: 0 0 0 0;
+}
+
+a.links:hover {
+    color: #000;
+    background: #fff;
+}
+
+.icons {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid white;
+    width: 150px;
+    border-radius: 10px;
+    background-color: rgba(42, 169, 219, 0.7);
+    letter-spacing: 20px;
+}
+
+
+
+
